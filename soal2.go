@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -23,8 +22,4 @@ func longestValidParentheses(s string) int {
 	}
 	return count
 
-}
-
-func main() {
-	fmt.Println(longestValidParentheses(")()())"))
 }

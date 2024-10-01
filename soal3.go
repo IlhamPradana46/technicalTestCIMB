@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func getSmallestString(n int, k int) string {
 	result := make([]byte, n)
 	angka := k - n
@@ -18,8 +14,4 @@ func getSmallestString(n int, k int) string {
 		}
 	}
 	return string(result)
-}
-
-func main() {
-	fmt.Println(getSmallestString(5, 73))
 }

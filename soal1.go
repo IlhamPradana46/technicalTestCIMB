@@ -44,8 +44,3 @@ func calPoints(operations []string) int {
 
 	return result
 }
-
-func main() {
-	ops := []string{"5", "2", "C", "D", "+"}
-	calPoints(ops)
-}
